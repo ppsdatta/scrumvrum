@@ -18,5 +18,9 @@ Window {
         scrumArea.onClicked: {
             cardNumber.text = cards.cardValue
         }
+        resetArea.onClicked: {
+            cards.cardValue = "reset"
+            cardNumber.text = cards.cardValue
+        }
     }
 }

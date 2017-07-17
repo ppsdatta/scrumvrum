@@ -23,7 +23,10 @@ QString CardNumbers::cardValue()
     return cardValues[curIndex++];
 }
 
-void CardNumbers::setCardValue(QString)
+void CardNumbers::setCardValue(QString resetValue)
 {
-    // Nothing here
+    // Only reset allowed to be passed now
+    if (resetValue == "reset") {
+        curIndex = 0;
+    }
 }

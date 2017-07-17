@@ -19,10 +19,12 @@ Rectangle {
             y: 158
             color: "#fff6f6"
             text: "?"
-            font.family: "Tahoma"
+            anchors.verticalCenterOffset: 0
+            anchors.horizontalCenterOffset: -5
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
-            font.pixelSize: 112
+            font.family: "Tahoma"
+            font.pixelSize: 146
         }
     }
 }

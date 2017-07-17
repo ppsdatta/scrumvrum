@@ -1,18 +1,17 @@
 #include "cardnumbers.h"
-#include <iostream>
 
 CardNumbers::CardNumbers(QObject *parent) : QObject(parent), curIndex(0)
 {
-    this->cardValues.push_back(QString("0"));
-    this->cardValues.push_back(QString("1/2"));
-    this->cardValues.push_back(QString("1"));
-    this->cardValues.push_back(QString("2"));
-    this->cardValues.push_back(QString("3"));
-    this->cardValues.push_back(QString("5"));
-    this->cardValues.push_back(QString("8"));
-    this->cardValues.push_back(QString("13"));
-    this->cardValues.push_back(QString("20"));
-    this->cardValues.push_back(QString(":-X"));
+    cardValues.push_back(QString("0"));
+    cardValues.push_back(QString("1/2"));
+    cardValues.push_back(QString("1"));
+    cardValues.push_back(QString("2"));
+    cardValues.push_back(QString("3"));
+    cardValues.push_back(QString("5"));
+    cardValues.push_back(QString("8"));
+    cardValues.push_back(QString("13"));
+    cardValues.push_back(QString("20"));
+    cardValues.push_back(QString(":-X"));
 }
 
 QString CardNumbers::cardValue()

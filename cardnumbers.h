@@ -18,7 +18,7 @@ signals:
 public slots:
 private:
     std::vector<QString> cardValues;
-    int curIndex;
+    size_t curIndex;
 };
 
 #endif // CARDNUMBERS_H

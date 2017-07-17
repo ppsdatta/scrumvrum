@@ -30,14 +30,14 @@ Rectangle {
 
         MouseArea {
             id: resetArea
-            x: 264
-            y: 275
-            width: 96
+            x: 148
+            y: 265
+            width: 202
             height: 85
             anchors.bottom: parent.bottom
-            anchors.bottomMargin: 0
+            anchors.bottomMargin: 10
             anchors.right: parent.right
-            anchors.rightMargin: 0
+            anchors.rightMargin: 10
 
             Rectangle {
                 id: rectangle1

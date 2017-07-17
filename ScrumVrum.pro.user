@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.3.1, 2017-07-17T18:10:10. -->
+<!-- Written by QtCreator 4.3.1, 2017-07-17T18:46:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -895,15 +895,14 @@
      <value type="int">13</value>
      <value type="int">14</value>
     </valuelist>
-    <valuemap type="QVariantMap" key="Ios.device_type">
-     <value type="QString" key="displayName">iPhone 7, iOS 10.2</value>
-     <value type="QString" key="identifier">3D4E8117-32CA-4A21-B087-D28601D921F6</value>
-     <value type="int" key="type">1</value>
-    </valuemap>
-    <value type="QString" key="Ios.run_arguments"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Run on iOS Simulator</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Run libScrumVrum.so on iOS Simulator</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.IosRunConfiguration:/Users/sourav/Documents/Play/ScrumVrum/ScrumVrum.pro</value>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Arguments"></value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable"></value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.WorkingDirectory">%{buildDir}</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Custom Executable</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
